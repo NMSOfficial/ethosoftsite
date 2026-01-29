@@ -80,7 +80,7 @@ export const PROJECTS: Project[] = [
 export const TEAM: TeamMember[] = [
   {
     id: 'remzi',
-    name: 'Remzi',
+    name: 'Remzi Öz',
     role: 'Takım Danışmanı',
     image: 'remzi.png',
     group: 'advisor'
@@ -92,7 +92,7 @@ export const TEAM: TeamMember[] = [
     email: 'omer@ethosoft.org',
     linkedin: 'https://www.linkedin.com/in/ömerfarukaksoy/',
     image: 'omer.png',
-    group: 'leadership'
+    group: 'advisor'
   },
   {
     id: 'nedim',
@@ -201,13 +201,18 @@ export const ACHIEVEMENTS: Achievement[] = [
     id: 'basaksehir',
     title: 'Başakşehir Living Lab Yarışması Türkiye 2.liği',
     image: 'basaksehir.jpeg'
+  },
+  {
+    id: 'eucodeweek',
+    title: 'EUCodeWeek Hackathon Türkiye 1.liği',
+    image: 'eucodeweek.jpeg'
   }
 ];
 
 // Partners Data
 export const PARTNERS: Partner[] = [
   { id: 'pertev', name: 'Pertevniyal Lisesi', logo: 'pertev.png' },
-  { id: 'cgm', name: 'Çemberlitaş Gençlik Merkezi', logo: 'cgm.png' },
+  { id: 'cgm', name: 'ODTÜ MEMS Merkezi', logo: 'mems.png' },
   { id: 'gsb', name: 'Gençlik ve Spor Bakanlığı', logo: 'gsb.png' },
   { id: 'ag', name: 'Asrın Global', logo: 'ag.png' },
 ];
