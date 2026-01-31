@@ -82,6 +82,8 @@ export const TEAM: TeamMember[] = [
     id: 'remzi',
     name: 'Remzi Öz',
     role: 'Takım Danışmanı',
+    email: 'remzioz@ethosoft.org',
+    linkedin: 'https://www.linkedin.com/in/remzi-öz-29687b1b3/',
     image: 'remzi.png',
     group: 'advisor'
   },
