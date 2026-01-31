@@ -26,8 +26,8 @@ const Contact: React.FC = () => {
           </div>
 
           <div className="flex flex-col justify-center space-y-8">
-            <a 
-              href={`mailto:${CONTACT_INFO.email}`} 
+            <a
+              href={`mailto:${CONTACT_INFO.email}`}
               className="flex items-center gap-6 group p-6 rounded-2xl bg-white/5 hover:bg-white/10 transition-all border border-white/5 hover:border-brand-salmon/30"
             >
               <div className="bg-brand-salmon/20 p-4 rounded-full text-brand-salmon group-hover:scale-110 transition-transform">
@@ -39,13 +39,13 @@ const Contact: React.FC = () => {
               </div>
             </a>
 
-            <a 
+            <a
               href={CONTACT_INFO.linkedin}
-              target="_blank" 
-              rel="noopener noreferrer" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-6 group p-6 rounded-2xl bg-white/5 hover:bg-white/10 transition-all border border-white/5 hover:border-brand-salmon/30"
             >
-               <div className="bg-[#0077b5]/20 p-4 rounded-full text-[#0077b5] group-hover:scale-110 transition-transform">
+              <div className="bg-[#0077b5]/20 p-4 rounded-full text-[#0077b5] group-hover:scale-110 transition-transform">
                 <Linkedin size={24} />
               </div>
               <div>
@@ -58,10 +58,10 @@ const Contact: React.FC = () => {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm font-light">
-            &copy; {new Date().getFullYear()} Ethosoft AI Team. Tüm hakları saklıdır.
+            &copy; {new Date().getFullYear()} Ethosoft AI Team
           </p>
-          
-          <button 
+
+          <button
             onClick={scrollToTop}
             className="flex items-center gap-2 text-sm text-gray-400 hover:text-brand-salmon transition-colors"
           >

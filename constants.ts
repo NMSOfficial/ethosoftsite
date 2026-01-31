@@ -102,7 +102,7 @@ export const TEAM: TeamMember[] = [
     role: 'Teknoloji Kaptanı, YZ & Veri Mühendisi',
     email: 'nedim@ethosoft.org',
     linkedin: 'https://www.linkedin.com/in/nmsofficial/',
-    image: 'nedim.png',
+    image: 'nedim.jpeg',
     group: 'leadership'
   },
   {
