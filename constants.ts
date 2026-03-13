@@ -208,6 +208,11 @@ export const ACHIEVEMENTS: Achievement[] = [
     id: 'eucodeweek',
     title: 'EUCodeWeek Hackathon Türkiye 1.liği',
     image: 'eucodeweek.jpeg'
+  },
+  {
+    id: 'eucodeweek2',
+    title: 'EUCodeWeek Hackathon Avrupa Şampiyonluğu',
+    image: 'eucw.jpg'
   }
 ];
 
